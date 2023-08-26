@@ -1,0 +1,165 @@
+*
+{
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    height: 100%;
+    width:100%;
+    margin: 0%;
+    display: flex;
+}
+.main
+{
+    height:100%;
+    width:100%;
+    
+    position:relative;
+
+}
+.nav
+{
+    background-color: #F2F3AE;
+    height: 100px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+    
+}
+.nav button
+{
+    font-size: 1.4vw;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: #020122;
+    margin: 2vw 0;
+    padding: 1vw 2vw;
+    color: white;
+}
+.nav-part2
+{
+    display: flex;
+    gap:4vw;
+
+}
+.nav h2{
+    font-size:4vw ;
+    font-weight: 700px;
+}
+ .nav h4{
+    font-size:2vw;
+
+}
+.nav i
+{
+    font-size: 2vw;
+    display: none;
+}
+
+.c1
+{
+    background-color: aqua;
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    position:relative;
+    
+}
+span
+{
+    color:#FC9E4F;
+}
+.right
+{
+    background-color: #FF521B;
+    height:100%;
+    width:50%;
+    padding: 0 5vw;
+}
+.right h2{
+    
+    font-size: 3vw;
+    
+}
+.right p{
+    
+    font-size: 1.6vw;
+    margin: 4vw 0;
+}
+.c1 button
+{
+    padding: 1.4vw 2vw;
+    border: none;
+    background-color:#020122 ;
+    color: white;
+    border-radius: 5px;
+    font-size: 1vw;
+    font-weight: 700;
+}
+.left
+{
+    background-color:#EDD382;
+    height:100%;
+    width:50%;
+    
+}
+.left img {
+
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    
+    .nav i
+    {
+        display: block;
+        font-size: 4vw;
+    }
+    .nav h4 
+    {
+        display:none;
+    }
+    .nav
+    {
+        height: 60px;
+    }
+    .nav button 
+    {
+        display: none;
+    }
+    .c1
+    {
+        height: calc(100% - 60px);
+        flex-direction: column;
+
+    }
+    .right
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .left
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .right h2 
+    {
+        font-size: 8vw;
+    }
+    .right p
+    {
+        font-size: 3vw;
+    }
+    .right button 
+    {
+        font-size: 3vw;
+
+    }
+}
